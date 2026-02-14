@@ -1,8 +1,8 @@
-package com.sjcapstone.tandanji.domain.classification.service;
+package com.sjcapstone.tandanji.src.service;
 
-import com.sjcapstone.tandanji.domain.classification.dto.PredictionResponse;
-import com.sjcapstone.tandanji.domain.classification.entity.Food;
-import com.sjcapstone.tandanji.domain.classification.repository.FoodRepository;
+import com.sjcapstone.tandanji.src.dto.PredictionResponse;
+import com.sjcapstone.tandanji.src.entity.Food;
+import com.sjcapstone.tandanji.src.repository.FoodRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,7 +1,7 @@
-package com.sjcapstone.tandanji.domain.classification.controller;
+package com.sjcapstone.tandanji.src.controller;
 
-import com.sjcapstone.tandanji.domain.classification.dto.PredictionResponse;
-import com.sjcapstone.tandanji.domain.classification.service.FoodService;
+import com.sjcapstone.tandanji.src.dto.PredictionResponse;
+import com.sjcapstone.tandanji.src.service.FoodService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
